@@ -6,11 +6,15 @@ For this assignment you will be creating a todo list that will take advantage
 of the existing signup/signin authentication flow that the server had for the
 last project.
 
+Build out a fully functioning todo list mobile application.
+Make use of this API to persist your todo list information.
+Use the signup/signin flow from the previous project as a starting point.
+
 This is the API documentation:
 
 URL: https://mobile-server-ii.herokuapp.com/
 
-
+## Routes
 
 [POST] `/users` - Requires an `email` and `password` property on the body.
 Returns a JWT and the user's info. Creates a new user in the database.
@@ -34,9 +38,4 @@ Toggles the specified todo object's `completed` property to either true or false
 [DELETE] `/todos/:todoId` - Requires a JWT header called `authorization`.
 Removes the specified todo object from the JWT's user's todo's array.
 
-
-
-For your assignment build out a fully functioning todo list mobile application.
-Make use of this API to persist your todo list information.
-Use the signup/signin flow from the previous project as a starting point.
 
