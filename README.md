@@ -10,6 +10,8 @@ This is the API documentation:
 
 URL: https://mobile-server-ii.herokuapp.com/
 
+
+
 [POST] `/users` - Requires an `email` and `password` property on the body.
 Returns a JWT and the user's info. Creates a new user in the database.
 
@@ -31,6 +33,8 @@ Toggles the specified todo object's `completed` property to either true or false
 
 [DELETE] `/todos/:todoId` - Requires a JWT header called `authorization`.
 Removes the specified todo object from the JWT's user's todo's array.
+
+
 
 For your assignment build out a fully functioning todo list mobile application.
 Make use of this API to persist your todo list information.
